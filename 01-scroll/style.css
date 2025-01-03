@@ -17,7 +17,7 @@ section {
    opacity: 0;
    filter: blur(5px);
    transform: translateX(-100%);
-   transition: all 5s;
+   transition: all 2s;
 }
 
 .show{
@@ -27,9 +27,9 @@ section {
 
 }
 
-/* @media (prefers-reduced-motion) {
+@media (prefers-reduced-motion) {
   .hidden {
     transition: none;
   }
-} */
+}
 
