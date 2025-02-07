@@ -1,0 +1,27 @@
+#editor {
+  border: 1px solid #ccc;
+  min-height: 300px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#toolbar button {
+  margin-right: 5px;
+}
+
+#link-suggestions {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.suggestion {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.suggestion:hover {
+  background-color: #f0f0f0;
+}
