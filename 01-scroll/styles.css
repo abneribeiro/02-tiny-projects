@@ -64,7 +64,7 @@ body {
   width: 120px;
   height: 95px;
   border-radius: .5rem;
- 
+  overflow: hidden;
   transition: all 0.3s ease;
 }
 
